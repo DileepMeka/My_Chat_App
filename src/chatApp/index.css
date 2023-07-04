@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #edf1f5 ;
+    height:100vh;
+    padding: 20px 30px 0 30px;
+    font-family: roboto;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.chat-heading{
+    font-size: 24px;
+    color: #4f5053;
+}
+.chat-description{
+    font-size: 20px;
+    font-family: "roboto";
+    color: #8f9093;
+}
+.members{
+    display: flex;
+    align-items: center;
+    color: #8f9093;
+}
+.users-icon{
+    font-size: 24px;
+    margin-left: 10px;
+}
+span{
+    font-weight: bold;
+}
+hr{
+    border:1px solid #d1cdcd;
+}
+.chat-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 85vh;
+    position: relative;
+}
+.chat-messages{
+    overflow-y: auto;
+    z-index: 1;
+}
+.input-bar{
+    background-color: transparent;
+    border: 1px solid #7c7d7f;
+    border-radius: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.form{
+    width: 100%;
+    /* border: 1px dashed #000ff0; */
+    padding: 0;
+}
+.input{
+    background-color: transparent;
+    border: 0;
+    height: 40px;
+    width:100% ;
+    outline: none;
+    margin-left: 10px;
+    /* border: 1px solid #222222; */
+
+}
+.input::placeholder{
+    font-size: 16px;
+}
+.emoji-button{
+    border: 0;
+}
+.emoji{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.emojiKeyboard{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+    right: 0%;
+    bottom: 50px;
+
+}
+.mention-box{
+    list-style: none;
+    background-color:#ffffff ;
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    padding: 30px;
+    border-radius: 30px 30px 30px 0;
+    font-size: 24px;
+}

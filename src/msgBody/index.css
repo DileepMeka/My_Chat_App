@@ -1,0 +1,64 @@
+.message-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sender-letter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgb(21, 116, 194);
+    font-size: 12px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+.sender-letter{
+    font-size: 14px !important;
+}
+.message-details-container{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end ;
+    margin-top: 10px;
+}
+.message-details{
+    display: flex;
+    margin-bottom: 5px;
+}
+.sender{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.sent-time{
+    font-size: 10px;
+    margin-top: 8px;
+    color: #8f9093;
+}
+.message-body-container{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 0 15px 15px 15px;
+    /* width: auto; */
+}
+.message-body{
+    padding: 0;
+    margin: 0;
+}
+.like{
+    font-size: 20px;
+}
+.liked{
+    color: blue;
+}
+
+.like-button{
+    cursor: pointer;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    margin: 30px 10px 0 10px;
+}

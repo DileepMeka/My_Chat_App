@@ -1,0 +1,23 @@
+.mention-name{
+    border: 0;
+    cursor: pointer;
+    color:#0000FF ;
+    background-color: transparent;
+    font-size: 14px;
+    border-bottom: 1px solid #d1cdcd;
+
+}
+.mentions{
+    display: flex;
+    color: #ace;
+    margin-bottom: 10px;
+}
+.mention-sender{
+    background-color: #eeedee !important ;
+    color: #494b4c !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.sender-letter{
+    font-size: 12px !important;
+}
